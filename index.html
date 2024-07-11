@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-One stop destination for music</title>
+    <link rel="icon" href="spotify_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><a target="_blank" href="https://open.spotify.com/?"><img src="spotify_logo.png" alt="Spotify">Spotify</li></a
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Soothing Coder's Playlist</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Enna Sona</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="0" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Kho gaye hum kahan</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="1" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Baarishein - Anuv Jain</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="2" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Shiddat-Title Track</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="3" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Sooraj Dooba Hain Yaaro</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="4" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Lose you to love me</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="5" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Ghodey pe Sawaar</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="6" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8">
+                    <span class="songName">Baharla ha madhumas</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34<i id="7" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class=" fa-solid fa-2x fa-fast-backward" id="previous"></i>
+            <i class=" fa-solid fa-2x fa-circle-play" id="masterPlay" margin="10px"></i>
+            <i class=" fa-solid fa-2x fa-fast-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="sound2.gif" width=34px alt="g" id="gif"> <span id="masterSongName">Enna Sona</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/efd9d7b56e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
