@@ -1,0 +1,1 @@
+The Spotify App Clone is a recreation of the popular music streaming service, Spotify. It aims to replicate the core functionalities and user interface of Spotify, allowing users to browse, search, and listen to their favorite music tracks and playlists.
